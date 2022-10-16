@@ -254,7 +254,7 @@
 }
 
 .xoomIn{
-    animation: xoomIn .5s forwards;
+    animation: xoomIn 1s forwards;
 }
 
 @keyframes xoomIn{
