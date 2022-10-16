@@ -1,0 +1,268 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.container{
+    width: 300px;
+    height: 250px;
+    position: relative;
+}
+
+.hidden{
+    display: none;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.bg{
+    width: 300px;
+    height: 250px;
+    top: 0;
+    left: 0;
+}
+
+.cup{
+    width: 128px;
+    height: 93px;
+    top: 136px;
+    left: 74px;
+}
+
+.logo1{
+    width: 94px;
+    height: 55px;
+    top: 14px;
+    left: 15px;
+}
+
+.tag1{
+    width: 209px;
+    height: 25px;
+    top: 78px;
+    left: 42px;
+}
+
+.el1{
+    width: 77px;
+    height: 77px;
+    top: 149px;
+    left: 3px;
+}
+
+.el2{
+    width: 76px;
+    height: 76px;
+    top: 103px;
+    left: 31px;
+}
+
+.el3{
+    width: 77px;
+    height: 76px;
+    top: 81px;
+    left: 109px;
+}
+
+.el4{
+    width: 76px;
+    height: 76px;
+    top: 108px;
+    left: 196px;
+}
+
+.el5{
+    width: 76px;
+    height: 77px;
+    top: 154px;
+    left: 218px;
+}
+
+.tea{
+    width: 128px;
+    height: 92px;
+    top: 136px;
+    left: 74px;
+}
+
+.el6{
+    width: 190px;
+    height: 156px;
+    top: 66px;
+    left: 8px;
+}
+
+.logo2{
+    width: 150px;
+    height: 89px;
+    top: 38px;
+    left: 64px;
+}
+
+.el7{
+    width: 244px;
+    height: 30px;
+    top: 140px;
+    left: 22px;
+}
+
+.buy{
+    width: 115px;
+    height: 41px;
+    top: 183px;
+    left: 79px;
+}
+
+.pluse{
+    -webkit-animation-name: pulse;
+            animation-name: pulse;
+    -webkit-animation-duration: .8s;
+            animation-duration: .8s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+}
+
+@-webkit-keyframes pulse{
+    0% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1)
+    }
+    50% {
+    -webkit-transform: scale3d(.95, .95, .95);
+            transform: scale3d(.95, .95, .95)
+    }
+    to{
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1)
+    }
+}
+
+@keyframes pulse{
+    0% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1)
+    }
+    50% {
+    -webkit-transform: scale3d(.95, .95, .95);
+            transform: scale3d(.95, .95, .95)
+    }
+    to{
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1)
+    }
+}
+
+.slide1_ani{
+    left: 121px !important;
+    top: 130px;
+    width: 77px;
+    height: 76px;
+    -webkit-transition: left 1s, width 1s, top 1.2s;
+    -o-transition: left 1s, width 1s, top 1.2s;
+    transition: left 1s, width 1s, top 1.2s;
+    z-index: 1111;
+    opacity: .3;
+}
+
+.ani2{
+    -webkit-animation: ani2 1s forwards;
+            animation: ani2 1s forwards;
+    z-index: 222;
+}
+
+@-webkit-keyframes ani2{
+    100%{
+        top: 142px;
+        left: 158px;
+    }
+}
+
+@keyframes ani2{
+    100%{
+        top: 142px;
+        left: 158px;
+    }
+}
+
+.ani3{
+    -webkit-animation: ani3 1s forwards;
+            animation: ani3 1s forwards;
+    z-index: 1;
+}
+
+@-webkit-keyframes ani3{
+    0%{
+        top: 87px;
+        left: 110px;
+
+    }
+    100%{
+        top: 87px;
+        left: 8px;
+    }
+}
+
+@keyframes ani3{
+    0%{
+        top: 87px;
+        left: 110px;
+
+    }
+    100%{
+        top: 87px;
+        left: 8px;
+    }
+}
+
+.flyIn{
+    -webkit-animation: flyIn 1s forwards;
+            animation: flyIn 1s forwards;
+}
+
+@-webkit-keyframes flyIn{
+    0%{
+        -webkit-transform: scale(0);
+                transform: scale(0);
+    }
+    50%{
+        -webkit-transform: scale(1.5);
+                transform: scale(1.5);
+    }
+}
+
+@keyframes flyIn{
+    0%{
+        -webkit-transform: scale(0);
+                transform: scale(0);
+    }
+    50%{
+        -webkit-transform: scale(1.5);
+                transform: scale(1.5);
+    }
+}
+
+.xoomIn{
+    animation: xoomIn .5s forwards;
+}
+
+@keyframes xoomIn{
+    20%{
+        transform: scale(.67);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
